@@ -11,6 +11,8 @@ Er du på diett? Huk av på en av de mange diettene du er på for å fjerne de o
 
 
 
+
+
 How does the problem relate to the solution?
 The solution we have come up with is to help people on a day to day basis with eating healthier. Although the problem is bigger than just food, helping people eat healthier is going to have a huge effect. In USA for example, almost 40 % of are obese.  And this does not only apply to developed countries. Much poorer countries like Egypt and Libya have 30% obesity in their population. (WHO) Also, if you measure it with BMI (Body mass index), the average Norwegian is overweight.
 At the same time, it is important to know that being slightly overweight is usually no problem at all. And considering the already enormous body pressure in society today, our solution is not intended to make everyone look like top athletes. But it is there to make sure that everyone have the resource to look at their diet and find out how to improve it, as this is something a lot of people find difficult.
