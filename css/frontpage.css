@@ -8,7 +8,7 @@ position: absolute;
 top: 0%;
 }
 
- p{
+ .nav p{
   text-decoration: none;
   font-size: 26;
 }
@@ -16,4 +16,20 @@ top: 0%;
 .nav a{
   text-decoration: none;
   width: 20%;
+}
+
+#Hovedtekst{
+  position: absolute;
+  left: 20%;
+  right: 70%;
+}
+
+
+#Problem{
+  position: absolute;
+  left: 20%;
+  right: 70%;
+}
+.h1{
+  
 }
