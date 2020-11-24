@@ -1,5 +1,5 @@
 # Final_Project.io
-
+https://flangsem.github.io/Final_Projekt.io/index.html
 
 @Hovedtekst
 Når de fleste tenker på at de skal bli sunnere, så tenker de aller fleste på å kutte kalorier. Det kan være greit i noen sammenhenger, men mister du noe annet også når du kutter vekk de kaloririke matvarene? Kuttet du vekk poteten og har ikke kompensert med noe som inneholder aminosyrer, jern, kalium, vitamin b og c? Med (appen) så slipper du å tenke så mye på det, vi gjør det for deg. Skriv inn hva det er du har planlagt å spise den dagen/uken, så tar vi oss av næringsinnholdet. Har du spist noe du ikke har skrevet opp på forhånd, ikke bekymre deg, bare skriv hva det er du har spist så oppdaterer vi oss.
