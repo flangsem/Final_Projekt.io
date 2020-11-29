@@ -36,14 +36,12 @@ body {
     color: #000;
 }
 
-.nav .links .mainlink {
-    color: #e0501b;
-}
-
-.nav h4 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 25px;
+.nav .logo img{
+ width: 250px;
+ height: 40px;
+ position: absolute;
+ top: 17px;
+ left: 2%;
 }
 
 .banner {
