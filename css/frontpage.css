@@ -58,10 +58,7 @@ body {
     background-attachment: fixed;
 }
 
-.banner.bannerText {
-    max-width: 900px;
-    text-align: center;
-}
+
 
 .bannerText h1 {
     color: #264342;
