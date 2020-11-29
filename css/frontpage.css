@@ -58,17 +58,17 @@ body {
     background-attachment: fixed;
 }
 
-.banner.content {
+.banner.bannerText {
     max-width: 900px;
     text-align: center;
 }
 
-.banner.content h2 {
+.banner.bannerText h1 {
     font-size: 5em;
     color: #fff;
 }
 
-.banner.content p {
+.banner.bannerText h3 {
     font-size: 1em;
     color: #fff;
 }
