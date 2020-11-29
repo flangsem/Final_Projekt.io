@@ -31,19 +31,17 @@ body {
 
 .nav .links a {
     margin-right: 25px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
-    color: #000;
+    color: #264342;
 }
 
-.nav .links .mainlink {
-    color: #e0501b;
-}
-
-.nav h4 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 25px;
+.nav .logo img{
+ width: 250px;
+ height: 40px;
+ position: absolute;
+ top: 17px;
+ left: 2%;
 }
 
 .banner {
@@ -75,10 +73,25 @@ body {
     color: #fff;
 }
 
+#theproblem{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#thesolution{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#theapp{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .btn {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #264342;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
