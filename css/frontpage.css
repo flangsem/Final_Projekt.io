@@ -71,6 +71,22 @@ html,body{
   font-size: 1em;
   color: #fff;
 }
+
+#theproblem{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#thesolution{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#theapp{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .btn{
   font-size: 1em;
   color: #fff;
