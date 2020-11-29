@@ -63,14 +63,17 @@ body {
     text-align: center;
 }
 
-.banner.bannerText h1 {
-    font-size: 5em;
-    color: #fff;
+.bannerText h1 {
+    color: #264342;
+    font-size: 3vw;
+    margin: 0 !important;
 }
 
-.banner.bannerText h3 {
-    font-size: 1em;
-    color: #fff;
+.bannerText h3{
+    margin: 6px !important;
+    color: #264342;
+    font-size: 2vw;
+    line-height: 30px;
 }
 
 #theproblem{
