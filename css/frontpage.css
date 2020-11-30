@@ -219,6 +219,12 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+@media screen and (min-width: 600px){
+.column{
+   padding-left: 25%;
+   width: 75%;
+}
+}
 
 h5 {
     font-size: 45px;
