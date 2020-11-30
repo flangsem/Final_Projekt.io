@@ -73,10 +73,14 @@ body {
     line-height: 30px;
 }
 
-#theproblem{
-  margin-left: 15%;
-  margin-right: 15%;
-}
+section#theproblem{
+    padding-top: 70px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 #thesolution{
   margin-left: 15%;
