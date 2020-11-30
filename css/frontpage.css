@@ -48,53 +48,6 @@ body {
   visibility: hidden;
 }
 
-@media only screen and (max-width:910px) {
-
-  .nav {
-      position: fixed;
-      z-index: 1000;
-      top: 0;
-      right: 0;
-      left: 0;
-      height: 80px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 25px 0 25px;
-      background-color: #fff;
-      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-  }
-
-  .nav .links a {
-      margin-right: 30px;
-      font-size: 20px;
-      font-weight: 600;
-      color: #264342;
-      position: relative;
-      left: 50px;
-
-  }
-
-  .nav .logo a{
-    visibility: hidden;
-  }
-
-  .nav .logo img{
-   width: 125px;
-   height: 20px;
-   position: absolute;
-   top: 30px;
-   left: 2%;
-   visibility: hidden;
-  }
-  .kunLogo{
-    visibility: visible;
-    width: 250px;
-    height: 40px;
-  }
 
 
 }
@@ -165,67 +118,6 @@ section#Contact{
 }
 
 
-@media only screen and (max-width:1600px) {
-  .bannerText h1 {
-      color: #264342;
-      font-size: 25px;
-      font-style: normal;
-      margin: 0 !important;
-
-  }
-
-  .bannerText h3{
-      margin: 6px !important;
-      color: #264342;
-      font-size: 15px;
-      line-height: 30px;
-
-  }
-
-  section#theproblem{
-      padding-top: 70px;
-      line-height: 1.5;
-      text-align: center;
-      font-size: 25px;
-      padding-left: 40px;
-      padding-right: 40px;
-      margin-left: 9%;
-      margin-right: 9%;
-    }
-
-  section#thesolution{
-    padding-top: 70px;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 9%;
-    margin-right: 9%;
-
-  }
-  section#theapp{
-    padding-top: 70px;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 9%;
-    margin-right: 9%;
-  }
-
-  section#Contact{
-    padding-top: 70px;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 9%;
-    margin-right: 9%;
-  }
-}
 
 
 
