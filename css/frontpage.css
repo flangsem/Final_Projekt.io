@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #e4eded;
+    background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden !important;
     margin: 0px !important;
@@ -58,6 +58,8 @@ body {
   align-items: center;
   padding: 0 1vw 0 1vw;
   height: 110vh;
+  background-color: #e4eded;
+
 }
 
 .bannerText h1 {
