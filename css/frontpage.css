@@ -96,36 +96,56 @@ section#theproblem {
     padding-top: 70px;
     line-height: 1.5;
     text-align: center;
-    font-size: 1.5vw;
     padding-left: 40px;
     padding-right: 40px;
+}
+section#theproblem h2{
+  font-size: 2vw;
+}
+section#theproblem p{
+  font-size: 1.5vw;
 }
 
 section#thesolution {
     padding-top: 70px;
     line-height: 1.5;
     text-align: center;
-    font-size: 1.5vw;
     padding-left: 40px;
     padding-right: 40px;
+}
+section#thesolution h2{
+  font-size: 2vw;
+}
+section#thesolution p{
+  font-size: 1.5vw;
 }
 
 section#theapp {
     padding-top: 70px;
     line-height: 1.5;
     text-align: center;
-    font-size: 1.5vw;
     padding-left: 40px;
     padding-right: 40px;
+}
+section#theapp h2{
+  font-size: 2vw;
+}
+section#theapp p{
+  font-size: 1.5vw;
 }
 
 section#Contact {
     padding-top: 70px;
     line-height: 1.5;
     text-align: center;
-    font-size: 1.5vw;
     padding-left: 40px;
     padding-right: 40px;
+}
+section#Contact h2{
+  font-size: 2vw;
+}
+section#Contact p{
+  font-size: 1.5vw;
 }
 
 * {
