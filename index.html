@@ -76,18 +76,33 @@
         </section>
 
         <!--========== Contact ==========-->
-        <section class="Contact" id="Contact">
-            <h4>Contact us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </section>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>Feel free to give us some feedback:</p>
+            </div>
+            <div class="row">
 
-        <!--========== norsk ==========-->
-        <section class="Norwegian" id="Norwegian">
-            <h5></h5>
-            <p></p>
-        </section>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">NAME</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email" name="Email" placeholder="Your email..">
+                        <label for="subject">HOW CAN WE HELP?</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+<!--========== norsk ==========-->
+<section class="Norwegian" id="Norwegian">
+    <h5></h5>
+    <p></p>
+</section>
 
 
 </body>

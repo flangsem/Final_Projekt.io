@@ -19,13 +19,13 @@ textarea {
 input[type=submit] {
     background-color: #264348;
     color: white;
-    padding: 12px 20px;
+    padding: 15px 40px;
     border: none;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #264390;
+    background-color: #264360;
 }
 
 
