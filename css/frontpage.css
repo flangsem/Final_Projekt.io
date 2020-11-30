@@ -168,15 +168,18 @@ section#Contact{
 @media only screen and (max-width:1600px) {
   .bannerText h1 {
       color: #264342;
-      font-size: 50px;
+      font-size: 25px;
+      font-style: normal;
       margin: 0 !important;
+
   }
 
   .bannerText h3{
       margin: 6px !important;
       color: #264342;
-      font-size: 26px;
+      font-size: 15px;
       line-height: 30px;
+
   }
 
   section#theproblem{
