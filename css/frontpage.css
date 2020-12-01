@@ -114,7 +114,11 @@ body {
     font-size: 2vw;
     line-height: 30px;
 }
-
+.bannerText h6 {
+    color: #264342;
+    font-size: 2vw;
+    margin: 0 !important;
+}
 .banner img {
     width: 47vw;
 }
