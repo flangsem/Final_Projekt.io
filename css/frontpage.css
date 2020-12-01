@@ -204,6 +204,8 @@ section#theproblem {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 70px;
+
 }
 
 section#theproblem h2 {
@@ -217,10 +219,13 @@ section#theproblem p {
 
 section#thesolution {
     padding-top: 70px;
+    padding-bottom: 70px;
     line-height: 1.5;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    background-color: #e4eded;
+
 }
 
 section#thesolution h3 {
