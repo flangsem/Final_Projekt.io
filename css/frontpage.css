@@ -43,56 +43,58 @@ body {
     top: 17px;
     left: 2%;
 }
-.nav .logo img:hover{
-  cursor: pointer;
-}
-.nav .links a:hover{
-  color: #9B3047;
+
+.nav .logo img:hover {
+    cursor: pointer;
 }
 
-.checkbtn{
-  font-size: 30px;
-  color: black;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
+.nav .links a:hover {
+    color: #9B3047;
 }
-#check{
-  display: none;
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
+
+#check {
+    display: none;
+}
+
 @media (max-width: 952px) {
-  .nav .logo img{
-    width: 200px;
-    height: 30px;
-    position: absolute;
-    top: 25px;
-    left: 46%;
-  }
-  .checkbtn{
-    display: block;
-
-  }
-  .links{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #e4eded ;
-    top: 80px;
-    left: -100%;
-    transition: all .5s;
-    text-align: center;
-    line-height: 60px;
-  }
-  .links a{
-    display: block;
-    font-size: 20px;
-  }
-  #check:checked ~ .links{
-    left: 0;
-
-  }
+    .nav .logo img {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        left: 46%;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .links {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #e4eded;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+        line-height: 60px;
+    }
+    .links a {
+        display: block;
+        font-size: 20px;
+    }
+    #check:checked~.links {
+        left: 0;
+    }
 }
 
 .banner {
@@ -117,69 +119,68 @@ body {
     font-size: 2vw;
     line-height: 30px;
 }
+
 .bannerText h6 {
     color: #264342;
     font-size: 2vw;
     margin: 0 !important;
 }
+
 .banner img {
     width: 47vw;
 }
 
+
 /*banner responsive*/
-@media only screen and (max-width: 1200px){
 
-.bannerText h1{
-    font-size: 40px;;
-    margin: 0 !important;
-}
-
-.bannerText h3{
-    font-size: 20px;
-}
-.bannerText h6{
-  font-size: 20px;
-}
-
-.btn{
-    margin: 0 auto;
-}
-.banner img{
-    width: 62vw;
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width: 800px){
-
-.banner{
-    flex-direction: column-reverse;
-    height: 970px;
-    align-items: center;
-    justify-content: center;
-    text-align: center
+@media only screen and (max-width: 1200px) {
+    .bannerText h1 {
+        font-size: 40px;
+        ;
+        margin: 0 !important;
+    }
+    .bannerText h3 {
+        font-size: 20px;
+    }
+    .bannerText h6 {
+        font-size: 20px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    .banner img {
+        width: 62vw;
+        text-align: left;
+    }
 }
 
-.bannerText h1{
-    font-size: 30px;
-    margin: 0 !important;
+@media only screen and (max-width: 800px) {
+    .banner {
+        flex-direction: column-reverse;
+        height: 970px;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+    }
+    .bannerText h1 {
+        font-size: 30px;
+        margin: 0 !important;
+    }
+    .bannerText h3 {
+        font-size: 25px;
+    }
+    .bannerText h6 {
+        font-size: 20px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    .banner img {
+        width: 62vw;
+        margin-bottom: 20px;
+    }
 }
 
-.bannerText h3{
-    font-size: 25px;
-}
-.bannerText h6{
-  font-size: 20px;
-}
-
-.btn{
-    margin: 0 auto;
-}
-.banner img{
-    width: 62vw;
-    margin-bottom: 20px;
-  }
-}
 .btn {
     font-size: 1em;
     color: #fff;
@@ -192,6 +193,7 @@ body {
     letter-spacing: 2px;
     transition: 0.5s;
 }
+
 .btn:hover {
     letter-spacing: 6px;
 }
@@ -203,12 +205,14 @@ section#theproblem {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#theproblem h2{
+
+section#theproblem h2 {
     font-size: 2.5vw;
     color: #264342;
 }
-section#theproblem p{
-  font-size: 1.5vw;
+
+section#theproblem p {
+    font-size: 1.5vw;
 }
 
 section#thesolution {
@@ -218,12 +222,14 @@ section#thesolution {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#thesolution h3{
-  font-size: 2.5vw;
-  color: #264342;
+
+section#thesolution h3 {
+    font-size: 2.5vw;
+    color: #264342;
 }
-section#thesolution p{
-  font-size: 1.5vw;
+
+section#thesolution p {
+    font-size: 1.5vw;
 }
 
 section#theapp {
@@ -233,14 +239,15 @@ section#theapp {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#theapp h4{
-  font-size: 2.5vw;
-  color: #264342;
-}
-section#theapp p{
-  font-size: 1.5vw;
+
+section#theapp h4 {
+    font-size: 2.5vw;
+    color: #264342;
 }
 
+section#theapp p {
+    font-size: 1.5vw;
+}
 
 section#Contact {
     padding-top: 10px;
@@ -249,43 +256,45 @@ section#Contact {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#Contact h5{
+
+section#Contact h5 {
     font-size: 2.5vw;
     color: #264342;
 }
-section#Contact p{
-  font-size: 1.5vw;
+
+section#Contact p {
+    font-size: 1.5vw;
 }
 
 @media (max-width: 1300px) {
-  section#theproblem h2{
-    font-size: 30px;
-    flex-direction: column-reverse;
-  }
-  section#theproblem p{
-    font-size: 25px;
-  }
-  section#thesolution h3{
-    font-size: 30px;
-    flex-direction: column-reverse;
-  }
-  section#thesolution p{
-    font-size: 25px;
-  }
-  section#theapp h4{
-    font-size: 30px;
-    flex-direction: column-reverse;
-  }
-  section#theapp p{
-    font-size: 25px;
-  }
-  section#Contact h5{
-    font-size: 30px;
-    flex-direction: column-reverse;
-  }
-  section#Contact p{
-    font-size: 25px;
-  }
+    section#theproblem h2 {
+        font-size: 30px;
+        flex-direction: column-reverse;
+    }
+    section#theproblem p {
+        font-size: 25px;
+    }
+    section#thesolution h3 {
+        font-size: 30px;
+        flex-direction: column-reverse;
+    }
+    section#thesolution p {
+        font-size: 25px;
+    }
+    section#theapp h4 {
+        font-size: 30px;
+        flex-direction: column-reverse;
+    }
+    section#theapp p {
+        font-size: 25px;
+    }
+    section#Contact h5 {
+        font-size: 30px;
+        flex-direction: column-reverse;
+    }
+    section#Contact p {
+        font-size: 25px;
+    }
 }
 
 * {
@@ -335,7 +344,7 @@ input[type=submit]:hover {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-    font-size: 25px;
+    font-size: 15px;
     color: #264348;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -359,21 +368,22 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
-@media screen and (min-width: 600px){
-.column{
-   padding-left: 25%;
-   width: 75%;
-}
+
+@media screen and (min-width: 600px) {
+    .column {
+        padding-left: 25%;
+        width: 75%;
+    }
 }
 
 h5 {
-    font-size: 45px;
+    font-size: 120px;
     color: #264348;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
-    font-size: 30px;
+    font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
     color: #264348;
 }
@@ -386,13 +396,13 @@ p {
 h5 {
     padding-top: 65px;
 }
-.appbilder img{
-width: 680px;
-margin-left: -200px;
-margin-right: -200px;
+
+.appbilder img {
+    width: 680px;
+    margin-left: -200px;
+    margin-right: -200px;
 }
 
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
