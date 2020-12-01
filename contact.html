@@ -27,25 +27,37 @@
                 </div>
             </div>
             <div class="container">
-                <div style="text-align:center">
+                <div id="contact_title"style="text-align:center">
                     <h2>Contact Us</h2>
                     <p>Feel free to give us some feedback:</p>
                 </div>
                 <div class="row">
 
                     <div class="column">
-                        <form action="/action_page.php">
+                        <form id=contact_form>
                             <label for="fname">NAME</label>
                             <input type="text" id="fname" name="firstname" placeholder="Your name..">
                             <label for="email">EMAIL</label>
                             <input type="text" id="email" name="Email" placeholder="Your email..">
                             <label for="subject">HOW CAN WE HELP?</label>
                             <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                            <input type="submit" value="Send">
+                             <button onclick="sendMail()" class="send_btn">Send</button>
                         </form>
                     </div>
+
+                    <h2 id="thank_you_message" style="display:none;">Thank you for your message</h2>
                 </div>
             </div>
+
+
+             <script>
+  function sendMail() {
+    document.getElementById("contact_form").remove();
+    document.getElementById("contact_title").remove();
+    var show = document.getElementById("thank_you_message");
+    show.style.display = "block";
+  }
+  </script>
     </body>
 
 </html>
