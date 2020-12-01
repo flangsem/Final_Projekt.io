@@ -423,3 +423,12 @@ h5 {
 html {
     scroll-behavior: smooth;
 }
+footer {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+footer .btn{
+  background-color: #9B3047;
+}
