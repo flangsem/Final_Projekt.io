@@ -257,6 +257,36 @@ section#Contact p{
   font-size: 1.5vw;
 }
 
+@media (max-width: 952px) {
+  section#theproblem h2{
+    font-size: 25px;
+    flex-direction: column-reverse;
+  }
+  section#theproblem p{
+    font-size: 20px;
+  }
+  section#thesolution h3{
+    font-size: 25px;
+    flex-direction: column-reverse;
+  }
+  section#thesolution p{
+    font-size: 20px;
+  }
+  section#theapp h4{
+    font-size: 25px;
+    flex-direction: column-reverse;
+  }
+  section#theapp p{
+    font-size: 20px;
+  }
+  section#Contact h5{
+    font-size: 25px;
+    flex-direction: column-reverse;
+  }
+  section#Contact p{
+    font-size: 20px;
+  }
+}
 
 * {
     box-sizing: border-box;
