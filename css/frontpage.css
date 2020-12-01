@@ -226,16 +226,16 @@ section#theapp p{
 
 section#Contact {
     padding-top: 70px;
-    line-height: 1.5;
+    line-height: 1;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
 }
-section#Contact h2{
-  font-size: 2vw;
+section#Contact h5{
+  font-size: 6vw;
 }
 section#Contact p{
-  font-size: 1.5vw;
+  font-size: 4vw;
 }
 
 * {
