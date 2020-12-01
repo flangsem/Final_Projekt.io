@@ -217,8 +217,9 @@ section#thesolution {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#thesolution h2{
-  font-size: 2vw;
+section#thesolution h3{
+  font-size: 2.5vw;
+  color: #264342;
 }
 section#thesolution p{
   font-size: 1.5vw;
