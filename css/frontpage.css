@@ -232,8 +232,9 @@ section#theapp {
     padding-left: 40px;
     padding-right: 40px;
 }
-section#theapp h2{
-  font-size: 2vw;
+section#theapp h4{
+  font-size: 2.5vw;
+  color: #264342;
 }
 section#theapp p{
   font-size: 1.5vw;
