@@ -12,10 +12,13 @@
 
 <body>
     <div class="wrapper">
-        <div class="nav">
+          <div class="nav">
             <div class="logo">
-                  <a class="logotekst" href="logo"> </a> <img src="../img/logo.png" alt="logo"> <img class="kunlogo" src="../img/kunLogo.png" alt="Logo">
+                <a class="logotekst" onclick="scrollFunc()"><img src="img/logo.png" alt="logo"> 
+                    <img class="kunlogo" src="img/kunLogo.png" alt="Logo"></a>
+
             </div>
+
             <div class="links">
                 <a href="#banner">Forsiden</a>
                 <a href="#theproblem">Problemet</a>
@@ -27,6 +30,9 @@
             </div>
         </div>
 
+    <script> function scrollFunc() {
+  document.getElementById("banner").scrollIntoView();
+}</script>
         
         <div class="banner" id="banner">
             <img src="../img/appen.png" alt="appen">
