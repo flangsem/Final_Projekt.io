@@ -43,6 +43,9 @@ body {
     top: 17px;
     left: 2%;
 }
+.nav .logo img:hover{
+  cursor: pointer;
+}
 
 .checkbtn{
   font-size: 30px;
@@ -292,9 +295,3 @@ width: 680px;
 margin-left: -200px;
 margin-right: -200px;
 }
-
-
-
-
-
-
