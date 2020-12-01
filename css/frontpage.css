@@ -257,34 +257,34 @@ section#Contact p{
   font-size: 1.5vw;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 1300px) {
   section#theproblem h2{
-    font-size: 25px;
+    font-size: 30px;
     flex-direction: column-reverse;
   }
   section#theproblem p{
-    font-size: 20px;
+    font-size: 25px;
   }
   section#thesolution h3{
-    font-size: 25px;
+    font-size: 30px;
     flex-direction: column-reverse;
   }
   section#thesolution p{
-    font-size: 20px;
+    font-size: 25px;
   }
   section#theapp h4{
-    font-size: 25px;
+    font-size: 30px;
     flex-direction: column-reverse;
   }
   section#theapp p{
-    font-size: 20px;
+    font-size: 25px;
   }
   section#Contact h5{
-    font-size: 25px;
+    font-size: 30px;
     flex-direction: column-reverse;
   }
   section#Contact p{
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
