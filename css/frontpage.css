@@ -330,7 +330,7 @@ textarea {
     resize: vertical;
 }
 
-button {
+input[type=submit] {
     background-color: #264348;
     color: white;
     padding: 15px 40px;
@@ -338,7 +338,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+input[type=submit]:hover {
     background-color: #264360;
 }
 
@@ -433,4 +433,24 @@ footer .btn{
   background-color: #9B3047;
   padding: 1vw 4vw;
 
+}
+.Sources{
+    padding-top: 50px;
+            padding-left: 35%;
+    padding-right: 35%;
+}
+.Sources p{
+    text-align: center;
+}
+.Sources li{
+    font-size: 19px;
+    line-height: 2;
+}
+.Sources li a{
+padding-left: 2%;
+    color: black;
+}
+.Sources li a:hover{
+    color: #9B3047;
+   
 }
