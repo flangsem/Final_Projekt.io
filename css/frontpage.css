@@ -224,6 +224,7 @@ section#theapp p{
   font-size: 1.5vw;
 }
 
+
 section#Contact {
     padding-top: 70px;
     line-height: 1;
@@ -232,11 +233,12 @@ section#Contact {
     padding-right: 40px;
 }
 section#Contact h5{
-  font-size: 6vw;
+  font-size: 2vw;
 }
 section#Contact p{
-  font-size: 4vw;
+  font-size: 1.5vw;
 }
+
 
 * {
     box-sizing: border-box;
