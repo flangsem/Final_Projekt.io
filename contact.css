@@ -16,7 +16,7 @@ textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+Button {
     background-color: #264348;
     color: white;
     padding: 15px 40px;
@@ -24,7 +24,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+Button:hover {
     background-color: #264360;
 }
 
