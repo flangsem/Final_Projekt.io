@@ -94,25 +94,29 @@
         
           <section class="Contact" id="Contact">
         <div class="container">
-            <div style="text-align:center">
-                <h5>Kontakt Oss</h5>
-                <p> Føl deg fri til å gi oss tilbakemelding:</p>
-            </div>
-            <div class="row">
+           <div class="container">
+                <div id="contact_title"style="text-align:center">
+                    <h2>Contact Us</h2>
+                    <p>Feel free to give us some feedback:</p>
+                </div>
+                <div class="row">
 
-                <div class="column">
-                    <form action="/action_page.php">
-                        <label for="fname">NAVN</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Ditt navn..">
-                        <label for="email">EMAIL</label>
-                        <input type="text" id="email" name="Email" placeholder="Din email..">
-                        <label for="subject">HVORDAN KAN VI HJELPE DEG?</label>
-                        <textarea id="subject" name="subject" placeholder="Skriv noe.." style="height:170px"></textarea>
-                        <input type="submit" value="Send">
-                    </form>
+                    <div class="column">
+                        <form id=contact_form>
+                            <label for="fname">NAME</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email" name="Email" placeholder="Your email..">
+                            <label for="subject">HOW CAN WE HELP?</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                             <button onclick="sendMail()" class="send_btn">Send</button>
+                        </form>
+                    </div>
+
+                    <h2 id="thank_you_message" style="display:none;">Takk for din tilbakemelding</h2>
                 </div>
             </div>
-        </div>
+
         </section>
         <script type="text/javascript" Z>
             window.addEventListener('scroll', function() {
@@ -120,6 +124,15 @@
                 header.classList.toggle("sticky, window.scrollY > 0");
             });
         </script>
+              
+              <script>
+  function sendMail() {
+    document.getElementById("contact_form").remove();
+    document.getElementById("contact_title").remove();
+    var show = document.getElementById("thank_you_message");
+    show.style.display = "block";
+  }
+  </script>
                    <footer>
         <a href="../sources.html" class="btn" id="button"> Kilder </a>
         </footer>
