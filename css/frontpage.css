@@ -66,6 +66,28 @@ body {
     display: none;
 }
 
+.Sources{
+    padding-top: 50px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.Sources p{
+    text-align: center;
+}
+.Sources li{
+    font-size: 19px;
+    line-height: 2;
+}
+.Sources li a{
+padding-left: 2%;
+    color: black;
+}
+.Sources li a:hover{
+    color: #9B3047;
+   
+}
+
+
 @media (max-width: 952px) {
     .nav .logo img {
         width: 180px;
@@ -95,6 +117,9 @@ body {
     #check:checked~.links {
         left: 0;
     }
+    .Sources{
+    padding-left: 5%;
+    padding-right: 5%;}
 }
 @media (max-width: 270px) {
   .nav .logo img{
@@ -434,23 +459,4 @@ footer .btn{
   padding: 1vw 4vw;
 
 }
-.Sources{
-    padding-top: 50px;
-            padding-left: 35%;
-    padding-right: 35%;
-}
-.Sources p{
-    text-align: center;
-}
-.Sources li{
-    font-size: 19px;
-    line-height: 2;
-}
-.Sources li a{
-padding-left: 2%;
-    color: black;
-}
-.Sources li a:hover{
-    color: #9B3047;
-   
-}
+
