@@ -1,1 +1,19 @@
+html,body{
+  font-size: 1.5vw;
+  background-color: #e4eded;
+}
 
+p{
+  font-size: 2vw;
+  font-style: block;
+}
+ol li{
+  color: #264342;
+}
+@media only screen and (max-width: 800px) {
+    ol li {
+        flex-direction: column-reverse;
+        font-size: 11px;
+        margin: 0 !important;
+      }
+  }
