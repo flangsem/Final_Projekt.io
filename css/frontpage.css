@@ -204,7 +204,8 @@ section#theproblem {
     padding-right: 40px;
 }
 section#theproblem h2{
-  font-size: 2vw;
+    font-size: 2.5vw;
+    color: #264342;
 }
 section#theproblem p{
   font-size: 1.5vw;
