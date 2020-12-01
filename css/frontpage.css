@@ -250,7 +250,8 @@ section#Contact {
     padding-right: 40px;
 }
 section#Contact h5{
-  font-size: 2vw;
+    font-size: 2.5vw;
+    color: #264342;
 }
 section#Contact p{
   font-size: 1.5vw;
