@@ -158,12 +158,12 @@ body {
 }
 
 .bannerText h1{
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 !important;
 }
 
 .bannerText h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 .bannerText h6{
   font-size: 20px;
@@ -176,20 +176,6 @@ body {
     width: 62vw;
     margin-bottom: 20px;
   }
-}
-
-
-.btn {
-    font-size: 1em;
-    color: #fff;
-    background: #264342;
-    display: inline-block;
-    padding: 1vw 3vw;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
 }
 
 .btn:hover {
