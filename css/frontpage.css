@@ -126,24 +126,16 @@ body {
 /*banner responsive*/
 @media only screen and (max-width: 1200px){
 
-.banner{
-    flex-direction: column-reverse;
-    height: 1300px;
-    align-items: center;
-    justify-content: center;
-    text-align: center
-}
-
 .bannerText h1{
-    font-size: 50px;;
+    font-size: 40px;;
     margin: 0 !important;
 }
 
 .bannerText h3{
-    font-size: 3.2vw;
+    font-size: 20px;
 }
 .bannerText h6{
-  font-size: 3vw;
+  font-size: 20px;
 }
 
 .btn{
